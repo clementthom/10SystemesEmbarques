@@ -14,7 +14,7 @@ int main(char argc, char* argv[]) {
     int var1 = 0;
     int var2 = 0;
 
-    //entrer des valeurs des variables
+    //entrée des valeurs des variables
     printf("\n\n Entrer la valeur var1 :\n\n");
     scanf("%d", &var1);
     printf("Entrer la valeur var2 :\n\n");
@@ -37,17 +37,54 @@ int main(char argc, char* argv[]) {
     int somme = var1 + var2;
     int difference = var1 - var2;
     int produit = var1 * var2;
-    int moyenne = (var1+var2)/2;
-    int division = var1 / var2;
+    double moyenne = (var1+var2)/2;
+    double division = var1 / var2;
 
     printf("Voici les resultats : \n var1 : %d \n var2 : %d \n", var1, var2 );
-    printf("somme : %d \ndifference : %d \nproduit : %d \nmoyenne : %d, \ndivision : %d", somme, difference, produit, moyenne, division);
-
-
-    return 0;
+    printf("somme : %d \ndifference : %d \nproduit : %d \nmoyenne : %lf, \ndivision : %lf", somme, difference, produit, moyenne, division);
 
 
 //exercice 4
 
-    
+    //création des variables
+    int entier1 = 0;
+    int entier2 = 0;
+    int entier3 = 0;
+
+    //entrée des valeurs des variables
+    printf("\n\n Entrer la valeur entier1 :\n\n");
+    scanf("%d", &entier1);
+    printf("Entrer la valeur entier2 :\n\n");
+    scanf("%d", &entier2);
+    printf("Entrer la valeur entier3 :\n\n");
+    scanf("%d", &entier3);
+
+    //affichage des valeurs par ordre croissant
+    int variableTampon = 0;
+
+
+//exercice 5 
+
+    printf("\n\nExercice 5\n\n");
+
+    //afficher les n premiers nombres pairs
+    int n = 1;
+    int valeurAAfficher = 0;
+    while(n<=5) {
+        valeurAAfficher = n*2;
+        printf("%d  ", valeurAAfficher);
+        n++;
+    }
+
+
+//exercice 6
+
+    printf("\n\nExercice 6\n\n");
+
+    //affichage des 5 premiers multiples de 3
+    for(int i = 1; i<=5; i++) {
+        printf("%d  ", i*3);
+    }
+
+    return 0;
 }
