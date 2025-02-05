@@ -60,7 +60,21 @@ int main(char argc, char* argv[]) {
     scanf("%d", &entier3);
 
     //affichage des valeurs par ordre croissant
-    int variableTampon = 0;
+    printf("\n\nValeur max : ");
+    if(entier1 >= entier2 && entier1 >= entier3) {
+        printf("%d\n", entier1);
+    }
+    else if (entier2 >= entier3)
+    {
+        printf("%d\n", entier2);
+    }
+    else {
+        printf("%d\n", entier3);
+    }
+    
+    
+
+
 
 
 //exercice 5 
