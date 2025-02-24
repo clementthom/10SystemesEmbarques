@@ -1,0 +1,10 @@
+"Part";"Value";"Device";"Package";"Description";"MANUFACTURER";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";"PART_STATUS";"POPULARITY";"SPICEPREFIX";
+"D1";"S1M";"S1M";"SMA";"";"";"";"";"";"";"";"0";"";
+"K1";"G5LE";"G5LE";"G5LE";"RELAY";"";"";"";"";"";"";"13";"";
+"LED1";"VERTE";"LED5MM";"LED5MM";"LED";"";"";"";"";"";"";"93";"";
+"OC1";"TLP181";"TLP181";"SO-4";"";"";"";"";"";"";"";"";"";
+"R1";"470";"R-EU_0204/7";"0204/7";"RESISTOR, European symbol";"";"";"";"";"";"";"79";"R";
+"R2";"4k99";"R-EU_0204/7";"0204/7";"RESISTOR, European symbol";"";"";"";"";"";"";"79";"R";
+"SV1";"";"MA04-1";"MA04-1";"PIN HEADER";"";"";"";"unknown";"unknown";"";"41";"";
+"U$1";"IRLR3410";"IRLR3410";"TO252";"";"";"";"";"";"";"";"";"";
+"X1";"";"AK300/3";"AK300/3";"CONNECTOR";"";"";"";"unknown";"unknown";"";"8";"";
