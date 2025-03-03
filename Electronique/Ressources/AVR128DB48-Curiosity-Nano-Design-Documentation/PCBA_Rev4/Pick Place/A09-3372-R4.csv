@@ -1,0 +1,116 @@
+Altium Designer Pick and Place Locations
+\..\PCBA_Rev4\Project_Outputs\Pick Place\A09-3372-R4.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       07-05-24
+Time:       13:50
+Revision:   a10ef434e263f5b6fc9c4569f80545d1d2230f1e
+Variant:    Default Assembly
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"Y101","","TopLayer","AP7-00061","32.5368","8.2640","0","Crystal, 16.0MHz, CL=12.0pF, ESR=80Ohm, SMD  LxW=3.2 x 25mm, 20ppm"
+"U100","","TopLayer","AP6-00357","50.8000","10.1600","135","AVR MCU 8-Bit 16kB 128kB Flash 48 pin 24MHz TQFP"
+"J114","","BottomLayer","AP9-00172","44.8000","13.2520","180","1x1mm, Round Strap, Open, no frame"
+"J113","","BottomLayer","AP9-00172","44.8000","11.7010","180","1x1mm, Round Strap, Open, no frame"
+"J108","","BottomLayer","AP9-00172","39.7000","6.2000","180","1x1mm, Round Strap, Open, no frame"
+"C107","","TopLayer","AP1-00148","35.3210","9.3180","270","Ceramic capacitor, SMD 0402, NP0, 50V, +/-5%"
+"C106","","TopLayer","AP1-00148","35.3210","6.6640","90","Ceramic capacitor, SMD 0402, NP0, 50V, +/-5%"
+"R213","","TopLayer","AP2-00108","10.1437","9.3750","270","Thick film resistor, SMD 0402, 1/16W, 1%"
+"U202","Arena: MIC9604","TopLayer","AP6-00576","8.7850","14.0285","270","0.2A- 2.5A adjustable current limit power switch, 2mm x 2mm DFN"
+"R211","","TopLayer","AP2-00108","7.3635","15.7250","180","Thick film resistror, SMD 0402, 1/16W, 1%"
+"R214","","TopLayer","AP2-00108","11.1103","9.3750","270","Thick film resistor, SMD 0402, 1/16W, 1%"
+"R217","Arena: RES1655","TopLayer","AP2-00108","7.3936","4.5750","0","Thick film resistor, SMD 0402, 1W, 1%"
+"R216","Arena: RES1655","TopLayer","AP2-00108","9.3024","5.6334","0","Thick film resistor, SMD 0402, 1W, 1%"
+"Q201","Arena: TRA1611","TopLayer","AP5-00062","9.1274","11.9750","0","P-Channel MOSFET, LGA, 20V, 3.6A, 76mOhm"
+"J203","Arena: CON2580","TopLayer","AP8-01248","4.3275","10.1600","270","USB2.0 Type-C, Surface mount signals and DIP shield"
+"C206","Added as part of back-porting the CNANO forecast from Arena: CAP1265","TopLayer","AP1-00148","9.2350","15.7250","0","Ceramic capacitor, SMD 0402, C0G, 25V, +/-5%"
+"C204","","TopLayer","AP1-00148","10.4337","12.7770","270","CAP CER 2.2UF 10V 10% X5R 0402"
+"C208","","TopLayer","AP1-00148","9.3677","10.9306","0","Ceramic capacitor, SMD 0402, X7R, 16V, +/-10%"
+"Y100","","TopLayer","AP7-00069","38.9530","12.2090","270","Crystal, 32.768kHz, CL=7.0pF, ESR=70kOhm, SMD  LxW=3.2 x 1.5mm, 20ppm"
+"J100","","TopLayer","AP8-01100","41.9100","10.1600","0","Curiosity Nano 56-pin edge connector with castellations, 100-mil pitch."
+"J202","","BottomLayer","AP8-01249","4.4600","10.1600","0","6-pin Testpoint Array, 0.8mm Pad, 1.27mm Pitch"
+"C200","","TopLayer","AP1-00148","17.1450","12.8270","0","CAP CER 2.2UF 10V 10% X5R 0402"
+"U200","Marking code: AAR","TopLayer","AP6-00504","16.9050","14.2250","0","500mA Ultra Low Dropout LDO regulator, 2% accuracy, 1.6x1.6mm MLF"
+"U203","","TopLayer","AP6-00481","13.6790","15.2000","270","LDO 3.3V 0.5A 6TDFN"
+"Q200","","TopLayer","AP5-00056","11.7150","12.8750","180","N-channel MOSFET, DFN1006-3 (SOT883), 60V, 330mA, 4Ohm"
+"U209","1.05 x 1.05 x 0.4mm
+Cheaper alternative to A06-1576.
+
+Unable to place with two schematic symbols listed.  Removed LVC1T45
+Original SN74LVC1T45DCKR,LVC1T45
+
+FP changed from AP6-00505 to AP6-00575 which has solder dam (6/30/2023).","TopLayer","AP6-00575","21.0790","5.0250","0","Single-Bit Dual-Supply Transceive, 1.65-5.5 Translation and 3-State Outputs"
+"U208","1.05 x 1.05 x 0.4mm
+Cheaper alternative to A06-1576.
+
+Unable to place with two schematic symbols listed.  Removed LVC1T45
+Original SN74LVC1T45DCKR,LVC1T45
+
+FP changed from AP6-00505 to AP6-00575 which has solder dam (6/30/2023).","TopLayer","AP6-00575","21.0790","6.5250","0","Single-Bit Dual-Supply Transceive, 1.65-5.5 Translation and 3-State Outputs"
+"U207","1.05 x 1.05 x 0.4mm
+Cheaper alternative to A06-1576.
+
+Unable to place with two schematic symbols listed.  Removed LVC1T45
+Original SN74LVC1T45DCKR,LVC1T45
+
+FP changed from AP6-00505 to AP6-00575 which has solder dam (6/30/2023).","TopLayer","AP6-00575","21.0790","9.0250","0","Single-Bit Dual-Supply Transceive, 1.65-5.5 Translation and 3-State Outputs"
+"U205","1.05 x 1.05 x 0.4mm
+Cheaper alternative to A06-1576.
+
+Unable to place with two schematic symbols listed.  Removed LVC1T45
+Original SN74LVC1T45DCKR,LVC1T45
+
+FP changed from AP6-00505 to AP6-00575 which has solder dam (6/30/2023).","TopLayer","AP6-00575","21.0790","10.5250","0","Single-Bit Dual-Supply Transceive, 1.65-5.5 Translation and 3-State Outputs"
+"U204","1.05 x 1.05 x 0.4mm
+Cheaper alternative to A06-1576.
+
+Unable to place with two schematic symbols listed.  Removed LVC1T45
+Original SN74LVC1T45DCKR,LVC1T45
+
+FP changed from AP6-00505 to AP6-00575 which has solder dam (6/30/2023).","TopLayer","AP6-00575","21.0790","12.0250","0","Single-Bit Dual-Supply Transceive, 1.65-5.5 Translation and 3-State Outputs"
+"U201","","TopLayer","AP6-00513","21.0129","14.2670","180","Loadswitch, Rds(on) = 14.5mohm, 1.0mm x 1.5mm WLCSP, reverse blocking"
+"C104","","TopLayer","AP1-00148","40.9850","13.0290","90","Ceramic capacitor, SMD 0402, NP0, 50V, +/-5%"
+"C105","","TopLayer","AP1-00148","40.9850","10.3730","90","Ceramic capacitor, SMD 0402, NP0, 50V, +/-5%"
+"C205","","TopLayer","AP1-00039","11.6580","15.5970","180","Ceramic capacitor, SMD 0603, X5R, 10V, 10% (de31036)"
+"C203","","TopLayer","AP1-00148","14.8790","15.1500","90","CAP CER 2.2UF 10V 10% X5R 0402"
+"C209","","TopLayer","AP1-00148","15.4050","4.5750","0","Ceramic capacitor, SMD 0402, X5R, 6.3V, +/-10% (de26942)"
+"C207","","TopLayer","AP1-00148","17.3550","4.5750","0","Ceramic capacitor, SMD 0402, X7R, 16V, +/-10%"
+"C202","","TopLayer","AP1-00148","19.0800","11.0250","270","Ceramic capacitor, SMD 0402, X7R, 16V, +/-10%"
+"D200","Replacement to A10-0183
+Not proven to be as good at If = 1mA","TopLayer","AP4-00160","11.2650","4.5750","180","LED, SMD 0402, Green, Wave length=569nm, 2.1mcd @ (1mA, 1.9Vf)rohm"
+"R205","","TopLayer","AP2-00108","13.9790","12.7500","270","Thick film resistor, SMD 0402, 1/16W, 1%"
+"R202","","TopLayer","AP2-00108","21.0000","7.7750","0","Thick film resistor, SMD 0402, 1/16W, 1%"
+"R207","","TopLayer","AP2-00108","19.5050","7.0794","90","Thick film resistor, SMD 0402, 1/16W, 1%"
+"R215","","TopLayer","AP2-00108","13.4300","4.5750","0","Thick film resistor, SMD 0402, 1/16W, 1%"
+"R212","","TopLayer","AP2-00108","19.0800","8.9740","90","Thick film resistor, SMD 0402, 1/16W, 1%"
+"R200","","TopLayer","AP2-00108","14.9290","12.7500","270","Thick film resistor, SMD 0402, 1/16W, 1%"
+"R209","","TopLayer","AP2-00108","11.7150","13.7750","0","Thick film resistor, SMD 0402, 1/16W, 1%"
+"R203","","TopLayer","AP2-00108","12.1748","10.1941","90","Thick film resistor, SMD 0402, 1/16W, 1%"
+"R218","","TopLayer","AP2-00108","9.2985","4.5750","180","Thick film resistor, SMD 0402, 1/16W, 1%"
+"R210","","TopLayer","AP2-00108","11.7150","11.6840","180","Thick film resistor, SMD 0402, 1/16W, 1%"
+"C201","","TopLayer","AP1-00148","18.8800","15.7250","0","Ceramic capacitor, SMD 0402, X7R, 16V, +/-10%"
+"C100","","TopLayer","AP1-00148","45.2500","6.7500","0","Ceramic capacitor, SMD 0402, X7R, 16V, +/-10%"
+"C101","","TopLayer","AP1-00148","47.3260","15.0430","45","Ceramic capacitor, SMD 0402, X7R, 16V, +/-10%"
+"C102","","TopLayer","AP1-00148","56.5430","12.4720","135","Ceramic capacitor, SMD 0402, X7R, 16V, +/-10%"
+"C103","","TopLayer","AP1-00148","26.1620","14.5542","90","CAP CER 2.2UF 10V 10% X5R 0402"
+"D100","","TopLayer","AP4-00169","74.1680","10.1600","270","LED, SMD 0603, Yellow, Wave length=590nm, 100mcd @ (20mA, 2.2Vf) rohm"
+"R201","","TopLayer","AP2-00108","18.5800","14.2750","90","Thick film resistor, SMD 0402, 1/16W, 1%"
+"R204","","TopLayer","AP2-00108","16.9050","15.7250","0","Thick film resistor, SMD 0402, 1/16W, 1%"
+"R206","","TopLayer","AP2-00108","19.4800","14.2750","90","Thick film resistor, SMD 0402, 1/16W, 1%"
+"R208","","TopLayer","AP2-00108","20.9920","15.7250","0","Thick film resistor, SMD 0402, 1/16W, 1%"
+"R103","","TopLayer","AP2-00108","76.4540","10.1600","90","Thick film resistor, SMD 0402, 1/16W, 1%"
+"R104","","TopLayer","AP2-00108","75.3110","10.1600","90","Thick film resistor, SMD 0402, 1/16W, 1%"
+"U206","QFN32","TopLayer","AP6-00418","15.6700","8.1700","90","32-bit RISC MCU 32pin"
+"J107","","BottomLayer","AP9-00172","39.7000","7.8000","180","1x1mm, Round Strap, Open, no frame"
+"TP202","PCB implemented component.","BottomLayer","AP8-00870","12.4000","5.7770","180","SMD Test point - 0.8mm"
+"TP203","PCB implemented component.","BottomLayer","AP8-00870","12.4000","7.0000","180","SMD Test point - 0.8mm"
+"TP200","PCB implemented component.","BottomLayer","AP8-01250","2.5400","17.7800","90","TH Test point - D3.6H2.7"
+"TP201","PCB implemented component.","BottomLayer","AP8-01250","2.5400","2.5400","90","TH Test point - D3.6H2.7"
+"SW100","Rating: DC 12V 50mA
+Max 0.1 ohm contact resistance","TopLayer","AP8-00137","80.3910","10.1600","270","SWITCH, SMD, 260gf, 6.4mm X 6.2mm"
+"LABEL1","","BottomLayer","AP8-00317","-453.6700","-415.5700","180","PCBA identification label PP Top White Gloss"
+"R102","","TopLayer","AP2-00108","42.3250","9.2440","180","Thick film resistor, SMD 0402, 1/16W, 1%"
+"R100","","TopLayer","AP2-00108","58.1500","12.2250","270","RES 0.0 OHM 1/16W 0402 SMD"

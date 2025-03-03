@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: AVR128DB48_Curiosity_Nano.PcbDoc   2024-05-07  13:49:33
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : A08-3057-R2-RoundHoles.TXT
+ASCII SlotHoles File : A08-3057-R2-SlotHoles.TXT
+EIA File   : A08-3057-R2.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             213       PTH        478.49mm (18.84inch)
+T2      0.6mm (24mil)                                             Round             10        PTH        30.58mm (1.20inch)
+T3      0.6mm (24mil)                                             Slot              4         PTH        36.62mm (1.44inch)
+T4      1mm (39mil)                                               Round             112       PTH        403.96mm (15.90inch)
+T5      1.02mm (40mil)                                            Round             4         PTH        35.61mm (1.40inch)
+T6      2.7mm (106mil)                                            Round             2         PTH        15.24mm (0.60inch)
+T7      2.7mm (106mil)                                            Round             2         NPTH       15.24mm (0.60inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              347
+
+Total Processing Time (hh:mm:ss) : 00:00:01
