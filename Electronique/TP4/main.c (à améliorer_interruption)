@@ -1,0 +1,58 @@
+#include <atmel_start.h>
+#include <util/delay.h>
+#include <avr/interrupt.h> //permet d'utiliser des interruptions
+#include <util/atomic.h>
+#include <avr/io.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int etatLumiere = 0;
+
+ISR(PORTB_PORT_vect) { //interrupt service routine
+	if(etatLumiere == 0) {
+		etatLumiere = 1;
+	}
+	else {
+		etatLumiere = 0;
+	}
+	PORTB.INTFLAGS = PIN2_bm; //le registre
+}
+
+
+
+
+int main(void) {
+
+	/* Initializes MCU, drivers and middleware */
+	atmel_start_init();
+
+	// on définit les entrées/sorties et leurs polarités
+	PORTB_set_pin_pull_mode(3, PORT_PULL_UP);
+	PORTB_set_pin_pull_mode(2, PORT_PULL_UP);
+
+	PORTB_set_pin_dir(2, PORT_DIR_IN); //input
+	PORTB_set_pin_dir(3, PORT_DIR_OUT); //output
+
+	PORTB_pin_set_isc(2, PORT_ISC_FALLING_gc); //condition pour lancer l'interruption : on passe de 1 à 0 (falling), le bouton est pressé
+
+	PORTB_set_pin_level(3, 0); //LED allumée par défault
+
+	sei(); //active la prise en compte des activation (bit I du registre STATUS mis à 1)
+
+	/* Replace with your application code */
+
+	while (1) {
+		PORTB_set_pin_level(3, etatLumiere);
+		_delay_ms(100);
+		printf("deux secondes");
+	}
+}
+
+/*
+void clignoteVite(int etatLumiere) {
+	if(etatLumiere == 0) {
+		PORTB_set_pin_level(3, etatLumiere);
+	}
+}
+
+*/

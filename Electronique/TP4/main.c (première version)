@@ -1,0 +1,63 @@
+#include <atmel_start.h>
+#include <util/delay.h>
+#include <avr/interrupt.h> //permet d'utiliser des interruptions
+#include <util/atomic.h>
+#include <avr/io.h>
+
+
+volatile int clignoteVite = 1; //etat initial : bouton pas appuyé ; défini comme volatile, peut être modifié par des éléments externes au programme
+
+
+ISR(PORTB_PORT_vect) { //interrupt service routine
+
+
+	if(PORTB_get_pin_level(2) == 0) { //bouton appuyé
+		if(clignoteVite==0) {
+			clignoteVite=1;
+		}
+		if(clignoteVite==1) {
+			clignoteVite=0;
+		}
+	}
+	cli(); //vide le masque global d'interruption ; on "ferme" les interruptions
+}
+
+
+
+
+int main(void) {
+
+
+
+	/* Initializes MCU, drivers and middleware */
+	atmel_start_init();
+
+	// on définit les entrées/sorties et leurs polarités
+	PORTB_set_pin_pull_mode(3, PORT_PULL_UP);
+	PORTB_set_pin_pull_mode(2, PORT_PULL_UP);
+
+	PORTB_set_pin_dir(2, PORT_DIR_IN); //input
+	PORTB_set_pin_dir(3, PORT_DIR_OUT); //output
+
+	//gestion interruption
+	sei();
+
+
+	/* Replace with your application code */
+	while (1) {
+		if(clignoteVite==0) { //on clignote vite
+			PORTB_set_pin_level(3, 1);
+			_delay_ms(100); //on va vite
+			PORTB_set_pin_level(3, 0);
+			_delay_ms(100); //on va vite
+		}
+		else { //on ne clignote pas vite
+			PORTB_set_pin_level(3, 1);
+			_delay_ms(1000); //on va vite
+			PORTB_set_pin_level(3, 0);
+			_delay_ms(1000); //on va vite
+		}
+
+		PORTB_pin_set_isc(2, PORT_ISC_FALLING_gc); //on détecte si le port 2 est en falling edge
+	}
+}
