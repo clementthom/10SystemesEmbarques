@@ -93,24 +93,30 @@ void moyenne_matiere(int nombre_notes){
     int *coefficient = NULL;
     coefficient = malloc(sizeof(int)*nombre_notes);
     
-
+    //entrée des données
     for(int i = 0; i<nombre_notes; i++) {
-        printf("Entrez la note nb %d : \n", notes + i);
-        scanf("%d", &notes+i);
-        printf("Entrez le coefficient nb %d : \n", *coefficient + i);
-        scanf("%d", &coefficient+i);
+        printf("Insérer la note numero %d : \n\n", i+1);
+        scanf("%d", notes+i); //le pointeur est déjà une adresse, pas besoin de &
+        printf("Insérer le coefficient de la note numero %d : \n\n", i+1);
+        scanf("%d", coefficient+i);
     }
 
-    int moyenne = 0;
-    printf("La moyenne est : \n\n");
 
-    printf("%d * %d ");
-    for(int i = 1; i<nombre_notes; i++) {
-        printf("+ %d * %d ", coefficient+i, notes+i);
-        //moyenne += coefficient+i * notes+i;
+    //affichage et calcul de la moyenne
+    int sommeNotes = 0;
+    int sommeCoeff = 0;
+    printf("Moyenne = ");
+    for(int i = 0; i<nombre_notes-1; i++) {
+        printf("%d * ", *(notes+i));
+        sommeNotes += (*(notes+i)) * (*(coefficient+i));
+        printf("%d + ", *(coefficient+i));
+        sommeCoeff += *(coefficient+i);
     }
-
-    //moyenne = moyenne/compteur(notes);
-    printf("= %d", moyenne);
-
+    printf("%d * ", *(notes+nombre_notes-1));
+    sommeNotes += (*(notes+nombre_notes-1))*(*(coefficient+nombre_notes-1));
+    printf("%d + ", *(coefficient+nombre_notes-1));
+    sommeCoeff += *(coefficient+nombre_notes-1);
+    
+    float moyenne = sommeNotes/sommeCoeff;
+    printf("= %f.\n\n", moyenne);
 }
